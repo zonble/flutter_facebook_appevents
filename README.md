@@ -103,3 +103,13 @@ FacebookAppEvents.logEvent("EVENT_NAME", {"PARAMETER_NAME": "VALUE"}))
 
 You can take a look at the classes like `EventName` and `ParameterName` to find
 the events and parameters that Facebook supports.
+
+## Notes
+
+I wrote the package merely for my own need, because I could not find any package
+for Facebook App Events in June, 2019. However, I found there are various great
+packages for the same purpose when I published the package. You may want to
+take a look on the packages:
+
+- [facebook_app_events](https://pub.dev/packages/facebook_app_events) by oddbit.id.
+- [facebook_analytics_plugin](https://pub.dev/packages/facebook_analytics_plugin) by Khalit Hartmann.

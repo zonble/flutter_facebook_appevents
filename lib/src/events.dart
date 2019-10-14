@@ -150,6 +150,7 @@ class ParameterProduct {
 class ParameterValue {
   /// Represents YES.
   static const String yes = "1";
+
   /// Represents NO.
   static const String no = "0";
 }
