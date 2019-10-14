@@ -1,11 +1,11 @@
 # flutter_facebook_appevents
 
-2019 © KKBOX.
+2019 © Weizhong Yang.
 
 The package bridges [Facebook App Events](https://developers.facebook.com/docs/app-events/)
 feature to your Flutter app.
 
-It helps you to install Facebook SDK 5.0 for iOS and Android, and makes your app
+It helps you to install Facebook SDK 5.x for iOS and Android, and makes your app
 to start sending events to Facebook automatically once you complete the
 configuration for your app. You can track additional events with the package, if
 you want to.
