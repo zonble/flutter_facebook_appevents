@@ -1,0 +1,10 @@
+.DS_Store
+.dart_tool/
+
+.packages
+.pub/
+
+build/
+.idea
+.vscode
+example/ios/Flutter/flutter_export_environment.sh
