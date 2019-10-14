@@ -11,7 +11,7 @@ to start sending events to Facebook automatically once you complete the
 configuration for your app. You can track additional events with the package, if
 you want to.
                        DESC
-  s.homepage         = 'https://github.com/KKBOX/flutter_facebook_appevents'
+  s.homepage         = 'https://github.com/zonble/flutter_facebook_appevents'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Weizhong Yang a.k.a zonble' => 'zonble@gmail.com' }
   s.source           = { :path => '.' }

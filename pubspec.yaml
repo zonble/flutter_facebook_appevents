@@ -1,8 +1,8 @@
 name: flutter_facebook_appevents
 description: Bridges Facebook events.
 version: 0.1.0
-author: Weizhong Yang a.k.a zonble <zonble@gmail.com>
-homepage: https://github.com/KKBOX/flutter_facebook_appevents
+author: zonble <zonble@gmail.com>
+homepage: https://github.com/zonble/flutter_facebook_appevents
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

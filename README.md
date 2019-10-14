@@ -2,6 +2,8 @@
 
 2019 © Weizhong Yang.
 
+[![Actions Status](https://github.com/zonble/flutter_facebook_appevents/workflows/Build/badge.svg)](https://github.com/zonble/flutter_facebook_appevents/actions)
+
 The package bridges [Facebook App Events](https://developers.facebook.com/docs/app-events/)
 feature to your Flutter app.
 
