@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'flutter_facebook_appevents'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Bridges Facebook App Events to your app.'
   s.description      = <<-DESC
 The package bridges [Facebook App Events](https://developers.facebook.com/docs/app-events/)
@@ -18,7 +18,7 @@ you want to.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'FacebookSDK/CoreKit'
+  s.dependency 'FacebookSDK/CoreKit', '~> 5.8.0'
   s.dependency 'FacebookSDK/MarketingKit'
   s.ios.deployment_target = '8.0'
 end

@@ -1,19 +1,19 @@
 PODS:
-  - FacebookSDK/CoreKit (5.2.3):
+  - FacebookSDK/CoreKit (5.8.0):
     - FBSDKCoreKit (~> 5.0)
-  - FacebookSDK/MarketingKit (5.2.3):
+  - FacebookSDK/MarketingKit (5.8.0):
     - FacebookSDK/CoreKit
     - FBSDKMarketingKit (~> 5.0)
-  - FBSDKCoreKit (5.0.0):
-    - FBSDKCoreKit/Basics (= 5.0.0)
-    - FBSDKCoreKit/Core (= 5.0.0)
-  - FBSDKCoreKit/Basics (5.0.0)
-  - FBSDKCoreKit/Core (5.0.0):
+  - FBSDKCoreKit (5.8.0):
+    - FBSDKCoreKit/Basics (= 5.8.0)
+    - FBSDKCoreKit/Core (= 5.8.0)
+  - FBSDKCoreKit/Basics (5.8.0)
+  - FBSDKCoreKit/Core (5.8.0):
     - FBSDKCoreKit/Basics
-  - FBSDKMarketingKit (5.0.0):
-    - FBSDKCoreKit (= 5.0.0)
+  - FBSDKMarketingKit (5.5.0):
+    - FBSDKCoreKit (~> 5.5)
   - Flutter (1.0.0)
-  - flutter_facebook_appevents (0.0.1):
+  - flutter_facebook_appevents (0.1.0):
     - FacebookSDK/CoreKit
     - FacebookSDK/MarketingKit
     - Flutter
@@ -23,7 +23,7 @@ DEPENDENCIES:
   - flutter_facebook_appevents (from `.symlinks/plugins/flutter_facebook_appevents/ios`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - FacebookSDK
     - FBSDKCoreKit
     - FBSDKMarketingKit
@@ -35,11 +35,11 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_facebook_appevents/ios"
 
 SPEC CHECKSUMS:
-  FacebookSDK: 631cf7d9b58a14f798c835023801a5f4c281ee6e
-  FBSDKCoreKit: ba361d4a9d4dc29ff218822b849b22d4f869c7bb
-  FBSDKMarketingKit: 4b8d3c6b53b5397cd0b6ba39b1e7034bc9f3a45e
+  FacebookSDK: 01ce488e7399bae3e2689ed8416e94174836eaf9
+  FBSDKCoreKit: e7dcac0aabcfb09d0166998edd95fe3b05a0ce5d
+  FBSDKMarketingKit: 570d0c2778a2166b0cd55b301160d662ccbe8927
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  flutter_facebook_appevents: 317bcd7237444938beffb20ad80c94bf17b3621c
+  flutter_facebook_appevents: b8353164a202f561700193781705b0303b90b929
 
 PODFILE CHECKSUM: b6a0a141693093b304368d08511b46cf3d1d0ac5
 
