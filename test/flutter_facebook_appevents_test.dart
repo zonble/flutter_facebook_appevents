@@ -1,6 +1,6 @@
-import 'package:flutter/services.dart';
-import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_facebook_appevents/flutter_facebook_appevents.dart';
+//import 'package:flutter/services.dart';
+//import 'package:flutter_test/flutter_test.dart';
+//import 'package:flutter_facebook_appevents/flutter_facebook_appevents.dart';
 
 void main() {
 //  const MethodChannel channel = MethodChannel('flutter_facebook_appevents');

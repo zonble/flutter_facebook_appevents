@@ -76,8 +76,8 @@ class EventName {
   /// Log this event when the user has entered their payment info.
   static const String addedPaymentInfo = "fb_mobile_add_payment_info";
 
-  /// Log this event when the user has completed a transaction.  The valueToSum
-  /// passed to logEvent should be the total price of the transaction. */
+  /// Log this event when the user has completed a transaction. The valueToSum
+  /// passed to logEvent should be the total price of the transaction.
   static const String purchased = "fb_mobile_purchase";
 
   // Gaming related
@@ -88,8 +88,8 @@ class EventName {
   /// Log this event when the user has unlocked an achievement in the app.
   static const String unlockedAchievement = "fb_mobile_achievement_unlocked";
 
-  /// Log this event when the user has spent app credits.  The valueToSum passed
-  /// to logEvent should be the number of credits spent. */
+  /// Log this event when the user has spent app credits. The valueToSum passed
+  /// to logEvent should be the number of credits spent.
   static const String spentCredits = "fb_mobile_spent_credits";
 }
 

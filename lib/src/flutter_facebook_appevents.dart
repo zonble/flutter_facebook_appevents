@@ -3,7 +3,7 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 
-/// Bridges Facebook SDK's App Events functionalities.
+/// Bridges Facebook SDK's App Events functionality.
 class FacebookAppEvents {
   static const MethodChannel _channel =
       const MethodChannel('flutter_facebook_appevents');

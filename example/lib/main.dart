@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
-
-import 'package:flutter/services.dart';
 import 'package:flutter_facebook_appevents/flutter_facebook_appevents.dart';
 
 void main() => runApp(MyApp());
