@@ -6,7 +6,7 @@ import 'package:flutter/services.dart';
 /// Bridges Facebook SDK's App Events functionality.
 class FacebookAppEvents {
   static const MethodChannel _channel =
-      const MethodChannel('flutter_facebook_appevents');
+  const MethodChannel('flutter_facebook_appevents');
 
   /// Resets user ID.
   static Future<void> resetUserId() async =>

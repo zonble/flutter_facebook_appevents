@@ -1,3 +1,7 @@
+## 0.2.0
+
+* Updates the format of the pubspec file.
+
 ## 0.1.1+3
 
 * Updates dependencies.
