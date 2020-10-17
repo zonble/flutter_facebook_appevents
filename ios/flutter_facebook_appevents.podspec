@@ -18,7 +18,7 @@ you want to.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'FacebookSDK/CoreKit', '~> 5.8.0'
+  s.dependency 'FacebookSDK/CoreKit', '~> 7.0'
   s.dependency 'FacebookSDK/MarketingKit'
   s.ios.deployment_target = '8.0'
 end
