@@ -12,12 +12,14 @@ let package = Package(
         .library(name: "flutter-facebook-appevents", targets: ["flutter_facebook_appevents"])
     ],
     dependencies: [
-        .package(url: "https://github.com/facebook/facebook-ios-sdk", revision: "3cebc3b"),
+        .package(url: "https://github.com/facebook/facebook-ios-sdk", from: "14.10.0"),
     ],
     targets: [
         .target(
             name: "flutter_facebook_appevents",
-            dependencies: ["FacebookCore"],
+            dependencies: [
+                .product(name: "FacebookCore", package: "facebook-ios-sdk"),
+            ],
             resources: [
                 // If your plugin requires a privacy manifest, for example if it uses any required
                 // reason APIs, update the PrivacyInfo.xcprivacy file to describe your plugin's
