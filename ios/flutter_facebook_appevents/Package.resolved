@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "facebook-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/facebook/facebook-ios-sdk",
+      "state" : {
+        "branch" : "3cebc3b",
+        "revision" : "3cebc3b1d13dbe85868cc04f5bed63648e8c410c"
+      }
+    }
+  ],
+  "version" : 2
+}

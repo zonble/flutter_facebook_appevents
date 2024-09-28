@@ -5,7 +5,7 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
   @override
-  _MyAppState createState() => _MyAppState();
+  State<MyApp> createState() => _MyAppState();
 }
 
 class _MyAppState extends State<MyApp> {
@@ -25,14 +25,14 @@ class _MyAppState extends State<MyApp> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              FlatButton(
-                  child: Text("Reset User ID"),
+              TextButton(
+                  child: const Text("Reset User ID"),
                   onPressed: () => FacebookAppEvents.resetUserId()),
-              FlatButton(
-                  child: Text("Set User ID"),
+              TextButton(
+                  child: const Text("Set User ID"),
                   onPressed: () => FacebookAppEvents.setUserId("user")),
-              FlatButton(
-                  child: Text("Log Event"),
+              TextButton(
+                  child: const Text("Log Event"),
                   onPressed: () =>
                       FacebookAppEvents.logEvent("test_", {"k": "v"})),
             ],

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="facebook_app_id">[YOUR FACEBOOK APP ID]</string>
-    <string name="fb_login_protocol_scheme">fb[YOUR FACEBOOK APP ID]</string>
-</resources>

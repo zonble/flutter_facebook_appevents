@@ -1,46 +1,38 @@
 PODS:
-  - FacebookSDK/CoreKit (5.8.0):
-    - FBSDKCoreKit (~> 5.0)
-  - FacebookSDK/MarketingKit (5.8.0):
-    - FacebookSDK/CoreKit
-    - FBSDKMarketingKit (~> 5.0)
-  - FBSDKCoreKit (5.8.0):
-    - FBSDKCoreKit/Basics (= 5.8.0)
-    - FBSDKCoreKit/Core (= 5.8.0)
-  - FBSDKCoreKit/Basics (5.8.0)
-  - FBSDKCoreKit/Core (5.8.0):
-    - FBSDKCoreKit/Basics
-  - FBSDKMarketingKit (5.5.0):
-    - FBSDKCoreKit (~> 5.5)
+  - FBAEMKit (17.1.0):
+    - FBSDKCoreKit_Basics (= 17.1.0)
+  - FBSDKCoreKit (17.1.0):
+    - FBAEMKit (= 17.1.0)
+    - FBSDKCoreKit_Basics (= 17.1.0)
+  - FBSDKCoreKit_Basics (17.1.0)
   - Flutter (1.0.0)
-  - flutter_facebook_appevents (0.1.1):
-    - FacebookSDK/CoreKit (~> 5.8.0)
-    - FacebookSDK/MarketingKit
+  - flutter_facebook_appevents (0.0.1):
+    - FBSDKCoreKit (~> 17.0)
     - Flutter
 
 DEPENDENCIES:
-  - Flutter (from `.symlinks/flutter/ios`)
+  - Flutter (from `Flutter`)
   - flutter_facebook_appevents (from `.symlinks/plugins/flutter_facebook_appevents/ios`)
 
 SPEC REPOS:
   trunk:
-    - FacebookSDK
+    - FBAEMKit
     - FBSDKCoreKit
-    - FBSDKMarketingKit
+    - FBSDKCoreKit_Basics
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: ".symlinks/flutter/ios"
+    :path: Flutter
   flutter_facebook_appevents:
     :path: ".symlinks/plugins/flutter_facebook_appevents/ios"
 
 SPEC CHECKSUMS:
-  FacebookSDK: 01ce488e7399bae3e2689ed8416e94174836eaf9
-  FBSDKCoreKit: e7dcac0aabcfb09d0166998edd95fe3b05a0ce5d
-  FBSDKMarketingKit: 570d0c2778a2166b0cd55b301160d662ccbe8927
-  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  flutter_facebook_appevents: 6539c1f74fb03100a7c95b0656e2333c53fa90c9
+  FBAEMKit: cb719c53575a3be86ea873279f30d6a2c4e15881
+  FBSDKCoreKit: ecdb980a24633ccb012700299ceb16d0235e14d2
+  FBSDKCoreKit_Basics: 045101c4a9ef10c845347424d73a29aae02c3e43
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_facebook_appevents: d07769ae62e9494090dcb80820219e6f80f42314
 
-PODFILE CHECKSUM: b6a0a141693093b304368d08511b46cf3d1d0ac5
+PODFILE CHECKSUM: 7be2f5f74864d463a8ad433546ed1de7e0f29aef
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.15.2
