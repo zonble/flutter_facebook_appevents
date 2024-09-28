@@ -1,6 +1,6 @@
 name: flutter_facebook_appevents
 description: flutter_facebook_appevents integrates Facebook App Events to your Flutter app.
-version: 0.2.0
+version: 1.0.0
 homepage: https://github.com/zonble/flutter_facebook_appevents
 
 environment:
