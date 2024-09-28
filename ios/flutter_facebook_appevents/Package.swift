@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "flutter-facebook-appevents", targets: ["flutter_facebook_appevents"])
     ],
     dependencies: [
-        .package(url: "https://github.com/facebook/facebook-ios-sdk", from: "14.10.0"),
+        .package(url: "https://github.com/facebook/facebook-ios-sdk", from: "14.1.0"),
     ],
     targets: [
         .target(
