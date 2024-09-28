@@ -23,9 +23,8 @@ jobs:
       - name: Doctor
         # Run doctor, for ease of debugging any issues.
         run: flutter doctor -v
-      - name: Install dependencies
-        run: flutter packages get
-        working-directory: example
+      - run: flutter pub get
+        working-directory: ./example
       - name: Cleans up iOS project
         run: |
           pod deintegrate
@@ -34,8 +33,8 @@ jobs:
           cat Flutter/Debug.xcconfig
           echo "#include \"Generated.xcconfig\"" > Flutter/Release.xcconfig
           cat Flutter/Release.xcconfig
-        working-directory: example/ios
+        working-directory: ./example/ios
       - name: Build iOS
         run: |
           flutter build ios --debug --no-codesign --simulator
-        working-directory: example
+        working-directory: ./example
